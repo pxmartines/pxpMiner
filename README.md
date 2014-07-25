@@ -11,6 +11,7 @@ yum groupinstall "Development Tools"
 yum install openssl openssl-devel openssh-clients gmp gmp-devel gmp-static git
 
 Ubuntu:
+
 apt-get install build-essential libssl-dev openssl git libgmp-dev
 
 
