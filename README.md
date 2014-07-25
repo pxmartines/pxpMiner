@@ -7,6 +7,7 @@ Requirements
 Openssl and libgmp.
 
 CentOS:
+
 yum groupinstall "Development Tools"
 yum install openssl openssl-devel openssh-clients gmp gmp-devel gmp-static git
 
@@ -16,8 +17,11 @@ apt-get install build-essential libssl-dev openssl git libgmp-dev
 
 
 Build instructions:
+
 1) cd pxpMiner
+
 2) ./configure
+
 3) make
 
 
